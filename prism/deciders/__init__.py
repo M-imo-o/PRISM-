@@ -9,6 +9,16 @@ from .laya_decider import (
     reset_shared_router,
 )
 from .llm import GeminiCardWriter, LLMCardWriter, TopicCardOutput
+from .rag import (
+    ChunkResult,
+    GoogleProvider,
+    L4Config,
+    L4Error,
+    LocalRAG,
+    ProviderError,
+    RetrievalError,
+    SourceDocumentError,
+)
 
 __all__ = [
     "SegmentDecision",
@@ -26,4 +36,12 @@ __all__ = [
     "KeywordSegmenter",
     "KeywordRouter",
     "FakeCardWriter",
+    "ChunkResult",
+    "GoogleProvider",
+    "L4Config",
+    "L4Error",
+    "LocalRAG",
+    "ProviderError",
+    "RetrievalError",
+    "SourceDocumentError",
 ]

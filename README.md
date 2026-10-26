@@ -1,4 +1,3 @@
-This fie contains all the necessary information for understanding and implementing the PRISM architecture.
 
 # PRISM System Architecture & Class Reference Manual
 
